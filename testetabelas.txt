@@ -1,0 +1,56 @@
+usuarios
+
+id
+nome
+senha
+email
+
+================
+tipo_produto
+id
+nome
+
+===============
+produto
+
+id
+nome
+diametro
+tipo
+estoque_aviso
+id_tipo_produto
+
+==============
+
+compras
+
+id
+dt_compra
+empresa
+nf
+valor
+============
+
+itens_compras
+
+id
+id_compra
+id_produto
+qtde
+valor_uni
+valor_total
+
+===========
+
+
+Cadastro de usuarios(controle)
+
+Cadastro de produtos/tipos de produtos
+
+Cadastro de Compras de produtos
+
+Casdastro de Kits(itens)
+
+Cadastro de venda(puxando itens do kit)
+
+
